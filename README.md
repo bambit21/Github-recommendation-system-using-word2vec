@@ -28,6 +28,7 @@ Github recommendation system(using word2vec)
 - 데이터 수집을 조금 더 많이 해서 다시 모델링하면 정확도가 높아질 것 같습니다
 - 추후 깃허브와 관련되어 한국인들의 깃허브 사용 실태, 주 사용 언어 등을 시각화로 표현해볼 수 있을 것 같습니다.
 
-자주 묻는 질문 
+## 자주 묻는 질문 
+
 1) 왜 fork한 repository를 작성한 user를 추천해주나요?
 - 일반적으로 깃허브는 SNS의 형태(following, follower)를 가지고 있지만 타 SNS에 비해 팔로잉하는 빈도가 적기 때문에 fork를 지표로 삼았습니다
