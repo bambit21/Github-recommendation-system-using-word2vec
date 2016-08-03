@@ -32,3 +32,12 @@ Github recommendation system(using word2vec)
 
 1) 왜 fork한 repository를 작성한 user를 추천해주나요?
 - 일반적으로 깃허브는 SNS의 형태(following, follower)를 가지고 있지만 타 SNS에 비해 팔로잉하는 빈도가 적기 때문에 fork를 지표로 삼았습니다
+
+## Reference
+### 추천시스템에 대한 내용
+- https://github.com/goodvc78
+
+### word2vec
+- https://radimrehurek.com/gensim/models/word2vec.html
+- http://www.slideshare.net/ChristopherMoody3/word2vec-lda-and-introducing-a-new-hybrid-algorithm-lda2vec
+- http://www.datasciencecentral.com/profiles/blogs/a-tale-about-lda2vec-when-lda-meets-word2vec 
