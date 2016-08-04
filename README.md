@@ -4,7 +4,9 @@ Github recommendation system(using word2vec)
 
 기획의도 : 개발자라면 대부분이 깃허브를 통해 자신이 작업하는 것들을 관리하는데, 만약 모르는(궁금한) 것이 있다면 스스로 구글링을 통해 깃허브의 repository(이하 repo)를 찾는 경우가 있습니다. 
 하지만 개발을 시작하는 입문자들은 어떤 내용을 검색해야 되는지조차 모르는 경우가 많이 있습니다. 
-이럴 경우 입문자들의 언어 작성 빈도를 기반으로 그들과 거리가 유사한 유저가 fork한 repository를 작성한 user를 추천해줍니다
+이런 분들을 위한 프로젝트입니다.
+이럴 경우 입문자들의 언어 작성 빈도를 기반으로 그들과 거리가 유사한 유저를 구한 후, 그 유저가 fork한 repository를 작성한 user를 추천해줍니다
+그 후, user의 repository를 통해 학습할 내용들을 알아갈 수 있습니다.
 
 ## 가정
 1. 특정 사람 A가 B의 repo를 fork한다면, A는 B의 repo를 통해 학습할 의향이 있다
@@ -13,6 +15,7 @@ Github recommendation system(using word2vec)
 - 셀레니움을 활용해 깃허브 유저 데이터(ID, name, country, mail_address, webpage, join_date, followers, Starred, Following, Contribution) 수집
 - 유저가 작성한 repository 수집(작성자 이름, repository 이름, 사용한 언어, 언어의 빈도)
 - 유저가 fork한 repository 수집(유저 이름, fork repository의 주인, fork repo 이름)
+
 
 ## 데이터 전처리
 - pandas를 통한 데이터 전처리
